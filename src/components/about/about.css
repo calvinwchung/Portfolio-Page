@@ -1,0 +1,96 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.about-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.about-right {
+  flex: 1;
+}
+
+.about-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.about-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #333;
+}
+
+.about-nucamp-img {
+  height: 120px;
+  border-radius: 20px;
+}
+
+.about-title {
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.about-sub {
+  margin: 20px 0px;
+}
+
+.about-desc {
+  font-weight: 300;
+  width: 85%;
+}
+
+.about-nucamp {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.about-nucamp-texts {
+  width: 80%;
+  color: #555;
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .about-left {
+    width: 100%;
+  }
+  .about-card {
+    height: 30vh;
+  }
+  .about-card.bg, .about-nucamp {
+    display: none;
+  }
+  .about-right {
+    padding: 20px;
+  }
+  .about-desc {
+    display: none;
+  }
+
+}

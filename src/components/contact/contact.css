@@ -1,0 +1,148 @@
+.c {
+  height: 100vh;
+}
+
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #59b256;
+  position: absolute;
+}
+
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+
+.c-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-title {
+  font-size: 60px;
+  width: 80%;
+  letter-spacing: 5px;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 70%;
+}
+
+a::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: black;
+
+  position: relative;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+a:hover::before {
+  width: 100%;
+}
+
+
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+
+}
+
+.c-desc {
+  font-weight: 300;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 80%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  background-color: #59b256;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 15px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px darkgray;
+}
+
+.linked, .git {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 12px;
+  }
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+  button {
+    margin-top: 100px;
+  }
+}
