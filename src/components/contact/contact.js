@@ -2,7 +2,7 @@ import './contact.css'
 import { useContext, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { ThemeContext } from '../../context';
-import { BsPhone } from 'react-icons/bs';
+import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
@@ -41,7 +41,7 @@ const Contact = () => {
           <h1 className='c-title'>let's connect!</h1>
           <div className='c-info'>
             <div className='c-info-item'>
-              <BsPhone className='c-icon'/>
+              <AiOutlinePhone className='c-icon'/>
               <a>267-818-0847</a>
             </div>
             <div className='c-info-item'>
