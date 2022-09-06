@@ -22,7 +22,7 @@ const Intro = () => {
             </div>
           </div> 
           <p className='intro-desc'>
-            i design and develop websites for customers everywhere, specializing in creative, stylish, modern web designs and web services.
+            i've designed a website that can hopefully help a friend of mine. i've also developed a mobile app for pickle ball which is a passion of mine.
           </p>
         </div>
         <svg
