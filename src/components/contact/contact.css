@@ -94,7 +94,7 @@ textarea {
   font-family: 'Poppins', sans-serif;
 }
 
-button {
+.submitBtn {
   border: none;
   padding: 15px;
   background-color: #59b256;
