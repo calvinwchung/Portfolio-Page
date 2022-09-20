@@ -20,7 +20,7 @@ export const products = [
   {
     id: 3,
     img: Nucamp,
-    link: "https://www.nucamp.co/",
+    link: "http://54.196.148.160/home",
   },
   {
     id: 4,
