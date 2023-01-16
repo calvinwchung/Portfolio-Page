@@ -4,6 +4,7 @@ import Nucamp from '../src/img/nucampproject.gif';
 import Imposter from '../src/img/imposter.gif';
 import Flappy from '../src/img/flappybird.gif';
 import PickleBall from '../src/img/pickleballapp.gif';
+import Paddleshop from '../src/img/paddleshop.gif';
 
 
 export const products = [
@@ -24,8 +25,8 @@ export const products = [
   },
   {
     id: 4,
-    img: Anti,
-    link: "https://lively-sfogliatella-f6a97d.netlify.app",
+    img: Paddleshop,
+    link: "https://glowing-naiad-014957.netlify.app/cart",
   },
   {
     id: 5,
